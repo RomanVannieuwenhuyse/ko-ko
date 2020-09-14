@@ -1,10 +1,10 @@
-const express = require('express');
+/*const express = require('express');
 const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
+app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));*/
 
 // ============ START BOT CODE ==============
 
@@ -18,7 +18,7 @@ const client = new Discord.Client();
 
 const prefix = "!";
 
-const token = process.env.DISCORD_TOKEN;
+const token = process.env.BOT_TOKEN;
 
 const fs = require("fs");
 
